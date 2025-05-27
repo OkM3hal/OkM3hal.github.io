@@ -7,7 +7,7 @@ flowchart TD
     CheckValid -- Yes --> Compare{Correct Guess?}
     Compare -- Too High --> High[Show Too High] --> Ask
     Compare -- Too Low --> Low[Show Too Low] --> Ask
-    Compare -- Yes --> Win[Show Correct] --> End([End])
+    Compare -- Yes --> Correct[Show Correct] --> End([End])
 ```
 
 ## Descriptions For Each Step
